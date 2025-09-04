@@ -250,7 +250,7 @@ async function createTicket(message, client) {
     // Get the custom welcome message or use default
     const welcomeMessage = await ConfigManager.getSetting(
       guild.id,
-      `settings.messages.welcomeMessage`,
+      'settings.messages.welcomeMessage',
       `Your support ticket has been successfully checked in!  
       To help our crew assist you faster, please choose one of the inquiries below and provide a brief description of your issue:
       - **General** – For regular support requests, such as asking about joining our crew.

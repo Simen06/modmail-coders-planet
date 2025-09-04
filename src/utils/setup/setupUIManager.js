@@ -354,7 +354,7 @@ Auto-Close: ${autoClose ? 'Enabled' : 'Disabled'}
    */
   static getColorPickerEmbed() {
     const embed = new EmbedBuilder()
-      .setColor('#5865F2')
+      .setColor('#004b95')
       .setTitle('Select Embed Color')
       .setDescription('Choose a color for ModMail embeds:')
       .setFooter({ text: config.footer })

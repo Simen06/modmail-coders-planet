@@ -251,7 +251,7 @@ async function createTicket(message, client) {
     const welcomeMessage = await ConfigManager.getSetting(
       guild.id,
       'settings.messages.welcomeMessage',
-      'Thank you for creating a ticket. The staff team will respond as soon as possible.'
+      'Thank you for creating a ticket. The staffee team will respond as soon as possible.'
     );
     
     // Get the configured embed color

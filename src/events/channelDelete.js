@@ -42,7 +42,7 @@ module.exports = {
         
         if (user) {
           await user.send({
-            content: `Your ModMail ticket in **${channel.guild.name}** has been closed. If you need further assistance, please create a new ticket.`
+            content: `Your ticket in **${channel.guild.name}** has been closed. If you need further assistance, please create a new ticket.`
           }).catch(err => {
             logger.warn(`Could not notify user ${ticket.userId} about ticket closure: ${err.message}`);
           });

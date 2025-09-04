@@ -48,7 +48,7 @@ module.exports = {
           
           if (user) {
             await user.send({
-              content: `Your ModMail ticket in **${guild.name}** has been closed because the server is no longer available or the ModMail bot was removed.`
+              content: `Your ticket in **${guild.name}** has been closed because the server is no longer available or the application was removed.`
             }).catch(err => {
               logger.warn(`Could not notify user ${ticket.userId} about ticket closure: ${err.message}`);
             });

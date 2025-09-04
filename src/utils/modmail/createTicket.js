@@ -247,15 +247,11 @@ async function createTicket(message, client) {
 
     await newTicket.save();
 
-    // Get the custom welcome message or use default
+     // Get the custom welcome message or use default
     const welcomeMessage = await ConfigManager.getSetting(
       guild.id,
       'settings.messages.welcomeMessage',
-      `Your support ticket has been successfully checked in!  
-      To help our crew assist you faster, please choose one of the inquiries below and provide a brief description of your issue:
-      - **General** – For regular support requests, such as asking about joining our crew.
-      - **Affiliate** – For affiliate-related inquiries, such as Alliances.
-      A staff member will respond as soon as possible. Thank you for being part of our virtual airline!`
+      'Thank you for creating a ticket. The staff team will respond as soon as possible.'
     );
     
     // Get the configured embed color

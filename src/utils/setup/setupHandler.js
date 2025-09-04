@@ -789,12 +789,12 @@ class SetupHandler {
           nameFormat: 'modmail-{username}'
         },
         messages: {
-          greeting: 'Thank you for contacting our team! Please describe your issue, and a staff member will assist you shortly.',
+          greeting: 'Thank you for contacting our support Team! ✈️ Please describe your inquiry, and one of our Customer Relation Agents will assist you shortly.',
           closeMessage: 'Your ticket has been closed. If you need further assistance, feel free to create a new ticket anytime.',
-          responseMessage: 'Staff reply:'
+          responseMessage: ''
         },
         appearance: {
-          embedColor: '#5865F2',
+          embedColor: '#004b95',
           timestampFormat: 'MMM D, YYYY [at] h:mm A'
         }
       };

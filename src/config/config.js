@@ -1,10 +1,10 @@
 module.exports = {
   prefix: process.env.PREFIX || '!',
-  embedColor: '#5865F2', // Discord Blurple
-  footer: 'Made by Izzy | Coders Planet',
+  embedColor: '#004b95', // Vilnius Airways Color
+  footer: 'Made by Vilnius Airways',
   statusMessages: {
     online: 'DM me to create a ticket!',
-    idle: 'Watching for new ModMail tickets'
+    idle: 'Watching for new tickets'
   },
   cooldowns: {
     commands: 3, // cooldown in seconds for normal commands

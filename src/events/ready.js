@@ -36,10 +36,9 @@ module.exports = {
     console.log(`
 ╔═══════════════════════════════════════════════════════════════╗
 ║                                                               ║
-║   ModMail Bot is now online!                                  ║
+║   The Bot is now online!                                      ║
 ║                                                               ║
-║   Created by: Izzy | Coders Planet                            ║
-║   Discord: https://discord.gg/codersplanet                    ║
+║   Created by: Sim                                             ║
 ║                                                               ║
 ║   Serving ${client.guilds.cache.size} servers and ${client.users.cache.size} users                      ║
 ║                                                               ║

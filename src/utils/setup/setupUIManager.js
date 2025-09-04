@@ -185,7 +185,7 @@ Auto-Close: ${autoClose ? 'Enabled' : 'Disabled'}
   static getMessageSettingsEmbed(guildConfig) {
     // Get message templates with fallbacks
     const welcomeMessage = guildConfig.settings?.messages?.welcomeMessage || 
-      'Thank you for creating a ticket. The staff team will respond as soon as possible.';
+      'Thank you for contacting our support Team! ✈️ Please describe your inquiry, and one of our Customer Relation Agents will assist you shortly.';
     const closeMessage = guildConfig.settings?.messages?.closeMessage || 
       'This ticket has been closed. If you need further assistance, please create a new ticket.';
     const responseMessage = guildConfig.settings?.messages?.responseMessage || 'Staff reply:';

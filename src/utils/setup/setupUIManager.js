@@ -362,7 +362,7 @@ Auto-Close: ${autoClose ? 'Enabled' : 'Disabled'}
     
     // Create a select menu for color options
     const colorOptions = [
-      { label: 'Blurple', value: '#5865F2', description: 'Default Discord color' },
+      { label: 'VA', value: '#004b95', description: 'Default Discord color' },
       { label: 'Red', value: '#ED4245', description: 'For errors or warnings' },
       { label: 'Green', value: '#57F287', description: 'For success messages' },
       { label: 'Yellow', value: '#FEE75C', description: 'For pending or in-progress' },
